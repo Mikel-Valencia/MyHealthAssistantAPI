@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MyHealthAssistantAPI"
+description = "API Rest for MyHealthAssistant project."
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]<1.0.0,>=0.114.2",
+    "pydantic-settings<3.0.0,>=2.2.1",
+    "sqlmodel<1.0.0,>=0.0.21"
+]
+authors = [
+  {name = "Mikel Valencia", email = "mikelv.dev@gmail.com"}
+]
+maintainers = [
+  {name = "Mikel Valencia", email = "mikelv.dev@gmail.com"}
+]
+readme = "README.md"
+keywords = ["fitness", "health", "api", "fastapi"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: FastAPI",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest<9.0.0,>=8.3.4",
+  "coverage<8.0.0,>=7.6.10",
+  "python-dotenv<2.0.0,>=1.0.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/Mikel-Valencia/MyHealthAssistantAPI"
+Issues = "https://github.com/Mikel-Valencia/MyHealthAssistantAPI/issues"
+
+[tool.coverage.run]
+omit = [
+  "myhealthassistantapi/setup.py"
+]
