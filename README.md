@@ -1,5 +1,8 @@
 # MyHealthAssistantAPI
 
+<a href="https://github.com/Mikel-Valencia/MyHealthAssistantAPI/actions?query=workflow%3ATest" target="_blank"><img src="https://github.com/fastapi/full-stack-fastapi-template/workflows/Test/badge.svg" alt="Test"></a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/Mikel-Valencia/MyHealthAssistantAPI" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/Mikel-Valencia/MyHealthAssistantAPI.svg" alt="Coverage"></a>
+
 MyHealthAssistantAPI forms the API Rest for MyHealthAssistant project.
 
 API version: 0.1.0.
