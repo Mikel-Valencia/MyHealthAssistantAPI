@@ -11,7 +11,9 @@ on:
       - synchronize
 
 jobs:
-  build:  
+  build:
+    env:
+      PROJECT_NAME: ${{vars.PROJECT_NAME}}
     runs-on: ubuntu-latest  
     strategy:  
       matrix:  
