@@ -32,13 +32,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test with pytest
         run:  bash scripts/test.sh
-
-  coverage:
-    name: Coverage
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Upload Coverage Reports to Codecov
         uses: codecov/codecov-action@v5
+        if: ${{ matrix.python-version }}=='3.13'
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
