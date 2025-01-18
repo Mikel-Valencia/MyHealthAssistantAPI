@@ -1,7 +1,7 @@
 # MyHealthAssistantAPI
 
 <a href="https://github.com/Mikel-Valencia/MyHealthAssistantAPI/actions?query=workflow%3ATest" target="_blank"><img src="https://github.com/fastapi/full-stack-fastapi-template/workflows/Test/badge.svg" alt="Test"></a>
-[![codecov](https://codecov.io/github/Mikel-Valencia/MyHealthAssistantAPI/branch/main/graph/badge.svg?token=HUILYZ14SY)](https://codecov.io/github/Mikel-Valencia/MyHealthAssistantAPI)
+[![codecov](https://codecov.io/github/Mikel-Valencia/MyHealthAssistantAPI/graph/badge.svg?token=HUILYZ14SY)](https://codecov.io/github/Mikel-Valencia/MyHealthAssistantAPI)
 
 MyHealthAssistantAPI forms the API Rest for MyHealthAssistant project.
 
