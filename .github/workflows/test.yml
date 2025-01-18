@@ -38,9 +38,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Store coverage data
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-html
-          path: htmlcov
-          include-hidden-files: true
+      - name: Upload Coverage Reports to Codecov
+        uses: codecov/codecov-action@v5
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
